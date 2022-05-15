@@ -3,7 +3,6 @@ import http
 import constants
 from Item import Item
 import json
-# holds the mapping between the name of the item and the object
 from status import Status
 
 items = {}
