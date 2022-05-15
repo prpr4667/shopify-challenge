@@ -1,10 +1,10 @@
 import http
 
-from server import constants
-from server.Item import Item
+from shop_server import constants
+from shop_server.Item import Item
 import json
 # holds the mapping between the name of the item and the object
-from server.status import Status
+from shop_server.status import Status
 
 items = {}
 # can be used to store the status of the item in the database

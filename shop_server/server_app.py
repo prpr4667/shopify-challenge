@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, Response
 
-from server.server_impl import *
+from shop_server.server_impl import *
 
 app = Flask(__name__)
 
